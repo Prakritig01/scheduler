@@ -25,11 +25,15 @@ const Header = () => {
               <PenBox /> Create Event
             </Button>
           </Link>
+
+
           <SignedOut>
             <SignInButton forceRedirectUrl="/dashboard">
               <Button variant="outline">Login</Button>
             </SignInButton>
           </SignedOut>
+
+          
           <SignedIn>
            <UserMenu/>
           </SignedIn>
